@@ -1,0 +1,55 @@
+/* -------------------- RESPONSIVE -------------------- */
+
+
+@media (max-width: 768px) {
+    .projects-row {
+        flex-direction: column;
+    }
+
+    .project-box {
+        flex: 1 1 100%;
+    }
+
+    .hero-heading {
+        font-size: 36px;
+    }
+
+    .portfolio {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img {
+        margin-top: 20px;
+    }
+
+    .about-row {
+        flex-direction: column;
+    }
+
+    .hero-row {
+        justify-content: center;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        display: none;
+    }
+
+    .nav-btn {
+        display: block;
+    }
+
+    .nav.active .nav-list {
+        display: flex;
+    }
+    .footer-icon {
+        width: 120px;
+    }
+}
