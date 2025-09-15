@@ -16,13 +16,12 @@
   <header class="header">
     <div class="container container-lg">
       <div class="header-nav">
-        <a href="#home" class="logo">Suriya</a>
+        
         <nav class="nav">
           <ul class="nav-list">
             <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
             <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
             <li class="nav-item"><a href="#projects" class="nav-link">Works</a></li>
-            <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
           </ul>
         </nav>
       </div>
@@ -34,6 +33,9 @@
 
   <section id="home" class="hero">
     <div class="container container-lg hero-row">
+       <div class="hero-img">
+        <img src="https://avatars.githubusercontent.com/u/128384572" alt="Photo of Suriya" />
+      </div>
       <div class="hero-content">
         <span class="hero-greeting">Hello, I am</span>
         <h1 class="hero-heading">Suriya</h1>
@@ -49,22 +51,20 @@
               <img src="img/social_icons/github.svg" alt="GitHub" class="social-icon" />
             </a>
             <a href="https://www.linkedin.com/in/suriyar7/" target="_blank">
-              <img src="img/social_icons/linkedin.svg" alt="LinkedIn" class="social-icon" />
+              <img src="img/social_icons/linkedin.svg" alt="LinkedIn" class="social-icon linked-in"  />
             </a>
           </div>
         </div>
 
         <!-- Buttons -->
         <div class="portfolio">
-          <a href="#projects" class="btn">My Portfolio</a>
-          <a href="#contact" class="btn btn-white">Contact Me</a>
+          <a href="#projects" class="btn-white">My Portfolio</a>
+          <a href="mailto:suriyarajakumar12@gmail.com" class="btn-white">Contact Me</a>
         </div>
       </div>
 
       <!-- Profile photo -->
-      <div class="hero-img">
-        <img src="img/profile/suriya.png" alt="Photo of Suriya" />
-      </div>
+     
     </div>
   </section>
 
@@ -75,108 +75,87 @@
       <div class="about-row">
         <div class="about-content">
           <p class="about-descr">
-            Hi, I’m Suriya. I completed my Bachelor's in Agriculture and later graduated from Fleming College with a
-            Postgraduate Certificate in International Business Management. Currently, I’m pursuing a Postgraduate
-            Diploma in Data Analytics for Business Decision Making.
+            I’m Suriyanarayanan Rajakumar, a passionate Data Analytics professional with a Post-Graduate Diploma in Data
+            Analytics and a Post-Graduate Diploma in International Business Management. I specialize in data
+            visualization, statistical analysis, and business insights using tools like Python, SQL, R, Tableau, Power
+            BI, and MS Excel.
             <br><br>
-            Outside of academics, I’m passionate about reading, photography, and music—I’m an intermediate guitarist and
-            a hobbyist editor. I’m also deeply interested in technology, especially hands-on learning through
-            self-hosting and real-world projects.
+            I enjoy transforming raw data into meaningful insights and building dashboards that help businesses make
+            informed, data-driven decisions. With hands-on experience in data visualization, predictive modeling, and
+            reporting, I aim to bridge the gap between business objectives and analytical solutions.
             <br><br>
-            I enjoy blending creativity and analytics to explore new ways of solving problems and telling stories with
-            data.
+            Currently, I’m exploring innovative ways to combine my skills in analytics and international business to deliver efficient, impactful, and scalable solutions.
           </p>
-          <a href="#!" class="btn btn-white">Download CV</a>
+          <a href="/cv/DA_Suriya.pdf" download="Suriya_CV.pdf" class="btn btn-white">Download CV</a>
         </div>
 
-        <!-- Skills -->
-        <div class="about-skills">
-          <div class="skill">
-            <div class="skill-title"><img src="img/icons/python.svg" class="skill-icon" alt="Python" />Python for Data
-              Analysis</div>
-            <div class="skill-percent">80%</div>
-            <div class="skill-bar__progress">
-              <div class="skill-bar__fill" data-progress="80"></div>
-            </div>
-          </div>
-
-          <div class="skill">
-            <div class="skill-title"><img src="img/icons/sql.svg" class="skill-icon" alt="SQL" />SQL</div>
-            <div class="skill-percent">75%</div>
-            <div class="skill-bar__progress">
-              <div class="skill-bar__fill" data-progress="75"></div>
-            </div>
-          </div>
-
-          <div class="skill">
-            <div class="skill-title"><img src="https://cdn.simpleicons.org/tableau/E97627" class="skill-icon"
-                alt="Tableau" />Tableau</div>
-            <div class="skill-percent">70%</div>
-            <div class="skill-bar__progress">
-              <div class="skill-bar__fill" data-progress="70"></div>
-            </div>
-          </div>
-
-          <div class="skill">
-            <div class="skill-title"><img src="https://cdn.simpleicons.org/powerbi/F2C811" class="skill-icon"
-                alt="Power BI" />Power BI</div>
-            <div class="skill-percent">70%</div>
-            <div class="skill-bar__progress">
-              <div class="skill-bar__fill" data-progress="70"></div>
-            </div>
-          </div>
-
-          <div class="skill">
-            <div class="skill-title"><img src="img/icons/r.svg" class="skill-icon" alt="R" />R</div>
-            <div class="skill-percent">60%</div>
-            <div class="skill-bar__progress">
-              <div class="skill-bar__fill" data-progress="60"></div>
-            </div>
-          </div>
-
-          <div class="skill">
-            <div class="skill-title"><img src="https://cdn.simpleicons.org/microsoftexcel/217346" class="skill-icon"
-                alt="Excel" />Excel & Spreadsheets</div>
-            <div class="skill-percent">85%</div>
-            <div class="skill-bar__progress">
-              <div class="skill-bar__fill" data-progress="85"></div>
-            </div>
-          </div>
-        </div>
+       
       </div>
     </div>
   </section>
 
-  <!-- Projects -->
-  <section id="projects" class="projects">
-    <div class="container container-lg">
-      <h2 class="title">Works</h2>
-      <div class="projects-row">
-        <div class="project-box">
-          <a href="https://github.com/rk-suriya/Data-Visualisation-using-python" target="_blank">
-            <img class="project-img" src="img/works/data-viz.jpg" alt="Data Visualization" />
+<!-- Projects -->
+<section id="projects" class="projects">
+  <div class="container container-lg">
+    <h2 class="title">Works</h2>
+    <div class="projects-row">
+
+      <div class="project-card">
+        <a href="https://github.com/rk-suriya/Data-Visualisation-using-python" target="_blank">
+          <div class="project-image-wrapper">
+            <img class="project-img" src="img/projects/visualisation.jpg" alt="Data Visualization" />
             <div class="project-mask">
               <div class="project-caption">
-                <h5>Data Visualization Using Python</h5>
-                <p>Matplotlib, Seaborn, Jupyter Notebook</p>
+                <h3>Data Visualization Using Python</h3>
+                <div class="project-skills">
+                <p>Matplotlib</p>
+                <p>Seaborn</p>
+                <p> Jupyter Notebook</p>
+                </div>
               </div>
             </div>
-          </a>
-        </div>
-        <div class="project-box">
-          <a href="#!" target="_blank">
-            <img class="project-img" src="img/works/server-setup.jpg" alt="Server Project" />
-            <div class="project-mask">
-              <div class="project-caption">
-                <h5>Self-Hosted Cloud Server</h5>
-                <p>Ubuntu, Docker, Nextcloud, Portainer, Tailscale</p>
-              </div>
-            </div>
-          </a>
-        </div>
+          </div>
+        </a>
       </div>
+
+      <div class="project-card">
+        <a href="#!" target="_blank">
+          <div class="project-image-wrapper">
+            <img class="project-img" src="img/projects/cloud-based-project-management-software.png" alt="Server Project" />
+            <div class="project-mask">
+              <div class="project-caption">
+                <h3>Self-Hosted Cloud Server</h3>
+                <div class="project-skills">
+                <p>Ubuntu</p>
+                <p>Docker</p>
+                <p>Nextcloud</p>
+                <p>Portainer</p>
+                  <p> Tailscale</p>
+              </div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Skills -->
+<section class="about-skills">
+    <h3 class="skills-title">My Skills</h3>
+    <div class="skills-container">
+      <div class="skill-card">Python</div>
+      <div class="skill-card">SQL</div>
+      <div class="skill-card">Tableau</div>
+      <div class="skill-card">Power BI</div>
+      <div class="skill-card">R</div>
+      <div class="skill-card">Excel</div>
     </div>
   </section>
+
+
 
   <!-- Contact -->
   <!-- <section id="contact" class="contact">
@@ -202,8 +181,8 @@
     <div class="footer-container">
       <div class="footer-social">
         <a href="https://github.com/rk-suriya" target="_blank"><img src="img/social_icons/github-wordmark-light.png"
-            alt="GitHub" class="footer-icon" /></a> 
-            <a href="https://www.linkedin.com/in/suriyar7/" target="_blank"><img
+            alt="GitHub" class="footer-icon" /></a>
+        <a href="https://www.linkedin.com/in/suriyar7/" target="_blank"><img
             src="img/social_icons/linkedin-horizontal.svg" alt="LinkedIn" class="footer-icon" />
         </a>
       </div>
@@ -211,49 +190,23 @@
     </div>
   </footer>
 
-  <script>
-    function animateSkills() {
-      const skills = document.querySelectorAll('.skill');
+<!-- Scroll Animation Script -->
+<script>
+  const cards = document.querySelectorAll(".project-card");
 
-      skills.forEach(skill => {
-        const bar = skill.querySelector('.skill-bar__fill');
-        const percentText = skill.querySelector('.skill-percent');
-        const targetValue = parseInt(bar.getAttribute('data-progress'), 10);
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("show");
+      } else {
+        entry.target.classList.remove("show"); // remove when out of view
+      }
+    });
+  }, { threshold: 0.2 });
 
-        // animate the bar
-        bar.style.width = targetValue + "%";
+  cards.forEach(card => observer.observe(card));
+</script>
 
-        // animate the text count-up
-        let current = 0;
-        const duration = 1200; // ms
-        const step = Math.ceil(targetValue / (duration / 20)); // update every 20ms
-
-        const counter = setInterval(() => {
-          current += step;
-          if (current >= targetValue) {
-            current = targetValue;
-            clearInterval(counter);
-          }
-          percentText.textContent = current + "%";
-        }, 20);
-      });
-    }
-
-    // Trigger when skills section is in view
-    const skillsSection = document.querySelector('.about-skills');
-    const observer = new IntersectionObserver(entries => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          animateSkills();
-          observer.disconnect(); // only once
-        }
-      });
-    }, { threshold: 0.3 });
-
-    if (skillsSection) {
-      observer.observe(skillsSection);
-    }
-  </script>
 
 </body>
 

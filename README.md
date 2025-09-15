@@ -1,10 +1,7 @@
-
 # rk-suriya.github.io
 
-This is the source for **rk-suriya.github.io** (GitHub Pages user site).  
-Files you care about:
-- `index.html`
-- `css/` (styles)
-- `img/` (images)
+Deployed static portfolio for **rk-suriya.github.io**.
 
-Deployed via GitHub Pages from the repository **root** of the `main` branch.
+- Auto-prepared from `suriya-portfolio (1).zip`
+- Detected web root: `suriya-portfolio`
+- Ensure GitHub Pages is set to **main / root**
